@@ -26,3 +26,53 @@
 1. Install Python 3.x and required libraries:
    ```bash
    pip install pandas openpyxl
+2. Run the application:
+python folder_creator.py
+
+Follow these steps in the GUI:
+
+Select the Excel file with folder names
+
+Select the destination folder
+
+Click Create Folders
+
+📌 Your Excel file must contain a column named Folder or S/N.
+
+📁 Excel File Format Example
+S/N
+1164751-001
+1164751-002
+1164751-003
+
+The app will create folders using the values from this column.
+
+⚙️ Requirements
+Python 3.7+
+
+pandas
+
+openpyxl
+
+tkinter (comes pre-installed with Python on Windows)
+
+Install dependencies (if needed):
+
+bash
+Kopieren
+Bearbeiten
+pip install pandas openpyxl
+📦 Repository Structure
+bash
+Kopieren
+Bearbeiten
+FolderCreatorApp/
+├── folder_creator.py     # Main GUI script
+├── README.md             # Documentation
+└── .gitignore            # Optional file to exclude temp files
+👤 Author
+Wilmar Rodríguez
+GitHub Profile
+
+📄 License
+This project is licensed under the MIT License – see the LICENSE file for details.
